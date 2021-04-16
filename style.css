@@ -1,0 +1,102 @@
+
+.indexlogin a{
+    text-decoration: none;
+    /* width: 0px; */
+}
+
+.indexlogin{
+    text-decoration: none;
+    width: 238.266px;
+    height: 72px;
+    /* width: 0px; */
+}
+.main{
+    width: 320.485px;
+    height: 72px;
+}
+.netlify-identity-menu{
+    display: flex;
+    list-style-type: none;
+    /* justify-content: space-evenly; */
+    /* position: relative; */
+}
+
+.netlify-identity-item.netlify-identity-user-details{
+    /* logged in as */
+    visibility: hidden;
+    /* display: none; */
+    /* position: relative;
+    padding: 0 0 0 0;
+    text-align: center;
+    background-color: tomato;
+    color: white; */
+}
+
+.netlify-identity-item.netlify-identity-user-details:after{
+visibility: visible;
+/* display: block; */
+content: "This will take you to your personal profile page";
+text-align: center;
+    background-color: tomato;
+    color: white;
+    padding: .5em 1em .5em 1em;
+    border-radius: 300px;
+}
+
+.netlify-identity-user{
+    visibility: hidden;
+    /* position: absolute; */
+    /* top: 0; */
+    /* studylearning592@gmail.com */
+}
+
+.netlify-identity-signup{
+     /* signup */
+     padding: 0 1em 0 0;
+}
+
+.netlify-identity-item{
+    /* itself is a ul tag */
+    /* sign and login is inside it inside a li tag */
+}
+
+.netlify-identity-login.{
+    /* login or logout appears below sign up option */
+}
+
+.netlify-identity-logout{
+    /* login or logout appears below sign up option */
+  
+}
+
+.netlify-identity-logout{
+    /* login or logout appears below sign up option */
+    background-color: tomato;
+    color: white;
+    padding: .5em 1em .5em 1em;
+    border-radius: 300px;
+}
+
+.inputFieldIcon.inputFieldEmail:after 
+{
+    content: "name";
+}
+.inputFieldIcon.inputFieldPassword:after 
+{
+    content: "password";
+}
+
+/* 
+input[type="name"].formControl:after {
+    visibility: hidden;
+    content: "<script type='text/javascript'>document.querySelector('input.formControl').classList.add('new');</script>;";
+}
+    emailinsignup:after{
+    content:"<script type='text/javascript'  src='app.js' ></script>;}";
+    }
+    emailinlogin:after{
+    content:"<script type='text/javascript'  src='app.js' ></script>;}";
+    }
+    passwordinlogin:after{
+    content:"<script type='text/javascript'  src='app.js' ></script>;}";
+    } */
